@@ -11,10 +11,10 @@ This pipeline deploys variables/secrets that are set in your Azure DevOps Librar
 It will also look and compare if the deployment doesn't have any variables/secrets in the Azure DevOps Library that exist in the Azure Keyvault and list them out for you review and then will delete the secret from the Keyvault (Manual Approval required before deleting the secrets it lists).  *Purge Protected Keyvaults can interfer with this step* 
 
 # Assumptions
-- We are assuming in this setup you already have configured you're own Agent Pool and Service Connections for Azure DevOps.
-- You have the knowledge to clone this Repo and get it into you're own Azure DevOps.
+- We are assuming in this setup you already have configured your own Agent Pool and Service Connections for Azure DevOps.
+- You have the knowledge to clone this Repo and get it into your own Azure DevOps.
 - You have the right permissions in your ADO Project & Org to setup libraires, environments, pipelines, agent pools & service connections
-- Your comfortable using VS Code to edit the repo with branching strategies etc.
+- You're comfortable using VS Code to edit the repo with branching strategies etc.
 
 ## Standard DEV > UAT > PPD > PRD Setup
 ### VS Code/Repo Config
