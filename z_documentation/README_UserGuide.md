@@ -15,6 +15,6 @@ Firstly head to your ADO Library and set up your new secret, and example is belo
 Head to the file called secretsmap.yml in your repo and update to add the new secret you should be able to follow the existing pattern 
 
 example - `Test1=$(SECRET_Test1)`
-<This part is the secret name you'd like in Keyvault>=(<This is the name of the secret/variable in Azure DevOps Library>)
+`<This part is the secret name you'd like in Keyvault>=$(<This is the name of the secret/variable in Azure DevOps Library>)`
 
 ![New Secret Setup File](newsecretsetup.png "New Secret Setup File")
