@@ -5,6 +5,7 @@ A Guide on how to utulise this Secret Uplaoder.
 | Version | Author | Notes |
 |-|-|-|
 | 0.1| JamieP0101 | Initial Release |
+| 0.2| JamieP0101 | Escape Char Bug Fix |
 
 ## How to add a new secrets
 Firstly head to your ADO Library and set up your new secret, and example is below but the assumption is made you know how to do this and are aware of how to use the "change variable to secret" padlock within the library.  

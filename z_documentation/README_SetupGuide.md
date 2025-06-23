@@ -5,6 +5,7 @@ A Guide on how to setup this ADO Library to Azure KeyVault Secret Uploader & Man
 | Version | Author | Notes |
 |-|-|-|
 | 0.1| JamieP0101 | Initial Release |
+| 0.2| JamieP0101 | Escape Char Bug Fix |
 
 ## What does the pipeline do?
 This pipeline deploys variables/secrets that are set in your Azure DevOps Library into a specified Azure Keyvault.
