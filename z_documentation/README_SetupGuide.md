@@ -14,12 +14,13 @@ It will also look and compare if the deployment doesn't have any variables/secre
 # Assumptions
 - We are assuming in this setup you already have configured your own Agent Pool and Service Connections for Azure DevOps.
 - You have the knowledge to clone this Repo and get it into your own Azure DevOps.
-- You have the right permissions in your ADO Project & Org to setup libraires, environments, pipelines, agent pools & service connections
+- You have the right permissions in your ADO Project & Org to setup libraires, environments, pipelines, agent pools & service connections.
+- The service connection has been assigned the RBAC role "Key Vault Secrets Officer" on the target key vault.
 - You're comfortable using VS Code to edit the repo with branching strategies etc.
 
 ## Standard DEV > UAT > PPD > PRD Setup
 ### VS Code/Repo Config
-To set this pipeline up for a the standard model this repo ships with you'll need to update anywhere you find "Fill Me In" or "<Fill Me In>"
+To set this pipeline up for the standard model this repo ships with, you'll need to update anywhere you find "Fill Me In" or "<Fill Me In>"
 
 - Rename the top level folder to your "Project Name" instead of "Fill Me In"
 - Nagivate to the azure-pipelines-secrets.yml file and update line 18 to match the "Project Name" you've just set
